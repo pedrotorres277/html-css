@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+ background-image: linear-gradient(to bottom, rgb(224, 189, 143), rgb(221, 169, 101), rgb(224, 156, 66), rgb(221, 143, 40), rgb(218, 130, 15));
+ background-attachment: fixed;
+}
+
+.form1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+fieldset{
+    border-radius: 10px;
+    color: rgb(71, 42, 4);
+    border: solid 2.5px;
+}
+
+label{
+    color: rgb(71, 42, 4);
+}
+legend{
+    font-size: 35px;
+    color: rgb(116, 70, 10);
+    font-weight: bolder;
+}
+button{
+    background-color: rgb(240, 199, 16);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(168, 158, 10);
+}
+
+input{
+    width: 250px;
+}
+

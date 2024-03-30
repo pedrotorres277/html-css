@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom, #25CBFA, #25FA9D, #25FA54);
+    background-attachment: fixed;
+}
+
+main{
+    padding: 20px;
+    box-shadow: 10px 10px 10px #0f5e203f;
+    position: absolute;
+    left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+}
+
+ .img{
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+top: 15%;
+transform: translate(-50%, -50%);
+box-shadow: 10px 10px 10px #0f5e203f;
+border-radius: 20px;
+ }
+
+input{
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+h1{
+    text-align: center;
+    
+    color: #4553ac;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+h3{
+    color: #5B6EE6;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.det{
+    margin-right: 1100px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #0f5e203f;
+    position: absolute;
+    border-radius: 10px;
+}
+p{
+    color: #2c356e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.go{
+    background-color: #25CBFA;
+    color: #2c356e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, #25CBFA, #25FA9D, #25FA54);
+    background-attachment: fixed;
+
+  }
+  
+  .container {
+    padding: 20px;
+    box-shadow: 10px 10px 10px #0f5e203f;
+    position: absolute;
+    left: 50%;
+top: 58%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+  }
+  h1{
+    text-align: center;
+    
+    color: #4553ac;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],input[type="password2"], input[type="date"] {
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #25CBFA;
+    color: #2c356e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+font-size: 16px;
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .img1{
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px #0f5e203f;
+    border-radius: 20px;
+  }
+
+  div.menu{
+    padding: 20px;
+    margin-right: 660px;
+    box-shadow: 10px 10px 10px #0f5e203f;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+  }
+ 
+  div.menu>details:hover{
+    color: #1177e4;
+  }
+div.menu>details>a{
+text-decoration: none;
+color: #000000;
+}
+div.menu>details>a:hover{
+  color: #1177e4;
+}
+.cadastro{
+  text-decoration: none;
+color: #006fe6;
+font-weight: bolder;
+}
+.cadastro:hover{
+  color: #08315c;
+}
