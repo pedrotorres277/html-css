@@ -9,10 +9,18 @@
             font-family: 'Times New Roman', Times, serif;
         }
         table{
+            margin: auto;
             width: 400px;
             border-collapse: collapse;
             border: 1px solid black;
             padding: 8px;
+            position: relative;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(53, 53, 255)
         }
         th{
             font-size: 20px;
@@ -25,8 +33,12 @@
         tr{
             background-color: rgb(53, 53, 255);
         }
-        tr.linha{
-            background-color: aquamarine;
+        tbody > tr{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        tr:nth-child(2n){
+            background-color: lightgray;
         }
         
     </style>
@@ -34,31 +46,117 @@
 <body>
     <table>
         <thead>
-          <th>Estado</th>
-          <th>População</th>
-          <th>Área</th>
+          <th scope="col">Estado</th>
+          <th scope="col">População</th>
+          <th scope="col">Área</th>
         </thead>
         <tbody>
         <tr>
-            <td>A1</td>
-            <td>B2</td>
-            <td>C1</td>
-        </tr>
-        <tr class="linha">
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
+            <td>SP</td>
+            <td>Muitos</td>
+            <td>765.390.123.000</td>
         </tr>
         <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+            <td>RJ</td>
+            <td>Muitos</td>
+            <td>535.390.123.000</td>
         </tr>
-        <tr class="linha">
-            <td>A4</td>
-            <td>B4</td>
-            <td>C4</td>
+        <tr>
+            <td>MG</td>
+            <td>Muitos</td>
+            <td>345.390.123.000</td>
         </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+        <tr>
+            <td>ES</td>
+            <td>Muitos</td>
+            <td>886.390.123.000</td>
+        </tr>
+
     </tbody>
     <tfoot>
         <td colspan="3" id="direitos"><b>Tabela feita por Pedro</b></td>
