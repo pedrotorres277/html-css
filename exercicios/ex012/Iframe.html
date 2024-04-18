@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body{
+            background-color: lightpink;
+        }
+        #fr{
+            width: 400px;
+            height: 300px;
+        }
+        div{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o Iframe</h1>
+    <ul>
+        <li>Acesse a <a href="pag002.html" target="frame"> Página 2</a></li>
+        <li>Acesse a<a href="pag003.html" target="frame"> Página 3</a></li>
+        <li>Acesse a<a href="pag004.html" target="frame"> Página 4</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellendus a voluptate vel quod explicabo officia vero repudiandae fugit ut excepturi veritatis, reiciendis fuga itaque? Et ad repellendus unde voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet molestiae quia quam, dolorum necessitatibus, voluptate vel maxime commodi quibusdam expedita asperiores aliquid dicta eius adipisci corporis sequi aperiam quo.</p>
+    <div>
+        <iframe id="fr" srcdoc="<h1>Escolha uma das opções acima:" name="frame" frameborder="1">
+            <p>infelizmente seu naveador nao é compativel</p>
+        </iframe>
+    </div>
+</body>
+</html>
