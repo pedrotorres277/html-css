@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <!-- <h1>Cadastre-se</h1>
+
+        <p>
+            <label for="inome">Nome:</label> <input type="text" placeholder="Digite aqui" name="nome" id="inome" maxlength="16" autocomplete="username"></p>
+        <p>
+            <label for="isobrenome">Sobrenome: </label><input type="text" placeholder="Digite aqui" name="sobrenome" id="isobrenome" required maxlength="16" autocomplete="current-password">
+        </p>
+        <div>
+            <label for="imedia">Media: </label><input type="number" placeholder="Digite aqui" name="media" id="imedia" required step="0.1" min="0" max="10">
+        </div>
+        <p>
+            <label for="isenha">Senha: </label><input type="password" placeholder="Digite aqui" name="senha" id="isenha" required minlength="4" maxlength="6">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form> -->
+
+<form action="cadastro.php" method="post" autocomplete="on">
+<h1>Login</h1>
+<div><label for="inome">Nome <input type="text" name="nome" id="inome" required maxlength="10" autocomplete="username"></label></div>
+<br>
+<div><label for="iemail">Email <input type="text" name="email" id="iemail" required maxlength="18" autocomplete="email"></label></div>
+<br>
+<div><label for="isenha">Senha <input type="password" name="senha" id="isenha" required maxlength="8" minlength="6" autocomplete="current-password"></label></div>
+<br>
+<div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</div>
+</form>
+</body>
+</html>
