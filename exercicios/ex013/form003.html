@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>script</title>
+</head>
+<body>
+    <h1>Exemplo 1</h1>
+    <p>
+        <label for="inum"></label>
+        <input type="range" name="num" id="inum" required min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+        <output id="ival">5</output>
+    </p>
+    <h1>Exemplo 2</h1>
+    <p>
+        <label for="iano">Em que ano voce nasceu??</label>
+        <input type="number" name="ano " id="iano" min="1900" max="2024" oninput="calcIdade()">
+    </p>
+    <p>
+        <label for="iidade">Sua idade é?</label>
+        <output id="iidade" >0</output>
+    </p>
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
