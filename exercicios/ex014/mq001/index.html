@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MQ</title>
-<link rel="stylesheet" href="estilos/tela.css" media="screen">
-<link rel="stylesheet" href="estilos/impressora.css" media="print">
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
         <h1>Noticias</h1>
-        <menu>
+        <div id="burguer" class="material-icons" onclick="clickMenu()"><img src="menu.png" alt="menu"></div>
+        <menu id="item">
             <ul>
-                <li>Esportes</li>
-                <li>Política</li>
-                <li>tecnologia</li>
+                <a href="#"><li>Esportes</li></a>
+                <a href="#"><li>Política</li></a>
+                <a href="#"><li>tecnologia</li></a>
+                <a href="#"><li>Atualidades</li></a>
+                <a href="#"><li>História</li></a>
             </ul>
         </menu>
+    </header>
         <main>
             <article>
                 <h2>Estou aprendendo media queries</h2>
@@ -24,6 +29,23 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ut rem omnis non minus, sed, optio saepe inventore quod, numquam molestiae? Aspernatur, deleniti. Eos iure maxime nostrum sequi iste officiis!</p>
             </article>
         </main>
-    </header>
+   <script>
+    function mudouTamanho(){
+        if (window.innerWidth >= 768) {
+            item.style.display = 'block' }
+
+            else{
+                item.style.display = 'none'
+            }
+    }
+    function clickMenu(){
+        if (item.style.display == 'block') {
+            item.style.display = 'none' }
+
+            else{
+                item.style.display = 'block'
+            }
+    }
+   </script>
 </body>
 </html>
