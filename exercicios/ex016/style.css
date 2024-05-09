@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.container{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px); /*primeira coluna, segunda coluna*/
+    grid-template-rows: 80px 80px ;/*prieira linha, segunda linha*/
+    /*gap: 20px; //espaçamento!*/
+}
+div{
+    /* height: 150px;
+    width: 150px;  */
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex-Box</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+    .flex-container{
+        background-image: linear-gradient(to bottom, orange, yellow);
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        flex-wrap: wrap;
+        align-items: center;
+
+        height: 16vh;
+        gap: 20px;
+}
+    .flex-item{
+        background-color: pink;
+}
+    .rodape{
+        background-image: linear-gradient(to bottom, yellow, orange);
+        padding: 10px;
+        text-align: center;
+    }
+    .texto{
+        margin: 10px 100px 10px 100px;
+        background-color: white;
+        padding: 10px;
+    }
+    .texto p{
+        text-indent: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h1>Home</h1>
+            </div>
+            <div class="flex-item">
+                <h1>Serviços</h1>
+            </div>
+            <div class="flex-item">
+                <h1>Sobre</h1>
+            </div>
+            <div class="flex-item">
+                <h1>Assinaturas</h1>
+            </div>
+            <div class="flex-item">
+                <h1>Sobre</h1>
+            </div>
+            <div class="flex-item">
+                <h1>Assinaturas</h1>
+            </div>
+        </div>
+    </header>
+    <!-- <main>
+        <div class="texto">
+            <h1>Texto 1 </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis iste facere error, illum alias animi mollitia tempore quis vel amet eligendi tempora illo hic quos nemo officiis nihil earum?</p>
+            <h2>Texto 2 </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolor, corporis ad veritatis officiis quasi impedit ratione laudantium placeat? Facilis sunt debitis error dolore amet, recusandae dolorum quos modi pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores laudantium adipisci ipsum repellendus rem voluptas consequuntur tenetur vel, soluta ab placeat optio laboriosam blanditiis, veniam suscipit quo quidem sit! Sunt?</p>
+            <h2>Texto 3 </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolor, corporis ad veritatis officiis quasi impedit ratione laudantium placeat? Facilis sunt debitis error dolore amet, recusandae dolorum quos modi pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape"><h3>Todos os direitos reservados</h3></div>
+    </footer> -->
+</body>
+</html>
