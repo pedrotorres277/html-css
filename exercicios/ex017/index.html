@@ -12,7 +12,7 @@
             box-sizing: border-box;
         }
         body{
-            background-color: antiquewhite;
+            background-color: rgb(253, 243, 101);
         }
     .flex-container{
         background-image: linear-gradient(to bottom, orange, yellow);
@@ -22,25 +22,41 @@
         justify-content: flex-start; 
         flex-wrap: wrap;
         align-items: center;
+        flex-basis: 1;
 
-        height: 16vh;
+        padding: 20px;
+        height: 20vh;
         gap: 20px;
+        
 }
     .flex-item{
-        background-color: pink;
+        
+        flex-grow: 1;
+        flex-shrink: 1;
+}
+.flex-item a{
+    text-decoration: none;
+    color: white;
+}
+.flex-item a:hover{
+    color: chocolate;
+    transition: 0.5s;
 }
     .rodape{
-        background-image: linear-gradient(to bottom, yellow, orange);
+        background-image: linear-gradient(to bottom, rgb(255, 230, 0), rgb(202, 138, 0));
         padding: 10px;
         text-align: center;
+        color: white;
     }
     .texto{
         margin: 10px 100px 10px 100px;
         background-color: white;
         padding: 10px;
+        line-height: 2.3em;
     }
     .texto p{
         text-indent: 20px;
+        line-height: 1.2em;
     }
     </style>
 </head>
@@ -48,37 +64,39 @@
     <header>
         <div class="flex-container">
             <div class="flex-item">
-                <h1>Home</h1>
+                <h1><a href="#">Home</a></h1>
             </div>
             <div class="flex-item">
-                <h1>Serviços</h1>
+                <h1><a href="#">Serviços</a></h1>
             </div>
             <div class="flex-item">
-                <h1>Sobre</h1>
+                <h1><a href="#">Sobre</a></h1>
             </div>
             <div class="flex-item">
-                <h1>Assinaturas</h1>
+                <h1><a href="#">Assinaturas</a></h1>
             </div>
             <div class="flex-item">
-                <h1>Sobre</h1>
+                <h1><a href="#">Sobre</a></h1>
             </div>
             <div class="flex-item">
-                <h1>Assinaturas</h1>
+                <h1><a href="#">Assinaturas</a></h1>
             </div>
         </div>
     </header>
-    <!-- <main>
+    <main>
         <div class="texto">
             <h1>Texto 1 </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis iste facere error, illum alias animi mollitia tempore quis vel amet eligendi tempora illo hic quos nemo officiis nihil earum?</p>
             <h2>Texto 2 </h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolor, corporis ad veritatis officiis quasi impedit ratione laudantium placeat? Facilis sunt debitis error dolore amet, recusandae dolorum quos modi pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores laudantium adipisci ipsum repellendus rem voluptas consequuntur tenetur vel, soluta ab placeat optio laboriosam blanditiis, veniam suscipit quo quidem sit! Sunt?</p>
             <h2>Texto 3 </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolor, corporis ad veritatis officiis quasi impedit ratione laudantium placeat? Facilis sunt debitis error dolore amet, recusandae dolorum quos modi pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dolor, corporis ad veritatis officiis quasi impedit ratione laudantium placeat? Facilis sunt debitis error dolore amet, recusandae dolorum quos modi pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati nobis, veniam praesentium dolor, corrupti accusamus vero deleniti quos excepturi porro eius adipisci mollitia? Quidem incidunt nesciunt similique, consectetur quos iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet nobis voluptas doloribus, rem assumenda corporis. Consequuntur, quaerat, alias sapiente repudiandae molestiae minima distinctio, hic minus necessitatibus inventore omnis reprehenderit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, amet nemo maiores perferendis cumque quae adipisci excepturi magni quod minus aut voluptatibus minima aliquid autem! Omnis distinctio tempora libero molestiae?</p>
+            <h2>Texto 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa? Dignissimos nemo ipsum delectus consectetur sapiente nihil dolorem unde iste fuga? Et harum maxime suscipit quas repellat? A, facere aut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, nostrum soluta. Odio, nam. Autem voluptatem saepe, veniam, at, consectetur a perferendis excepturi iste vitae ullam quia cum facilis odio quasi?</p>
         </div>
     </main>
     <footer>
         <div class="rodape"><h3>Todos os direitos reservados</h3></div>
-    </footer> -->
+    </footer>
 </body>
 </html>
