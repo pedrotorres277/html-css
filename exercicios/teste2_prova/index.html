@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            list-style: none;
+            font-size: 1.2rem;
+        }
+        header{
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 200px;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        section div:nth-child(even){
+            background-color: royalblue;
+        }
+        section div{
+            background-color: red;
+            margin: 10px;
+            height: 40vh;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Logo
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                   
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </a>
+    </header>
+
+    <main>
+        <section>
+            <div>Container 1</div>
+            <div>Container 2</div>
+            <div>Container 3</div>
+            <div>Container 4</div>
+            <div>Container 5</div>
+           
+        </section>
+    </main>
+</body>
+</html>
