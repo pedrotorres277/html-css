@@ -4,118 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TorresPaper</title>
-    <style>
-        body{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-            list-style: none;
-            background-image: linear-gradient(to bottom, gold, orange, black);
-            background-attachment: fixed;
-        }
-        #logo{
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 1.5px solid gold;
-            margin: 10px 20px 10px 20px;
-            box-shadow: 1px 1px 1px gold;
-        }
-        header{
-            background-color:rgb(34, 0, 0);
-        }
-        nav{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        div#li li{
-            display: inline-block;
-            margin: 10px 20px 10px 20px;
-            font-size: 20px;
-            color: white;
-            font-weight: 550;
-        }
-        a{
-            color: white;
-            text-decoration: none;
-            padding: 15px;
-        }
-        a:hover{
-            color: goldenrod;
-            font-weight: 550;
-        }
-        #whats{
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            display: inline-block;
-            padding: 0px;
-            margin: 0px;
-            position: relative;
-            top: 10px;
-            left: 5px;
-            border: 1.5px solid goldenrod;
-            box-shadow: 1px 1px 1px rgba(218, 165, 32, 0.575);
-        }
-        section{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            max-width: 600px;
-            text-align: center;
-            align-items: center;
-            margin: 50px auto;
-        }
-        .layout1{
-            background-color: blue;
-            margin: 0 10px 10px 0;
-            padding: 2px;
-            box-shadow: 1px 1px 3px rgba(0, 0, 255, 0.418);
-            border-radius: 5px;
-        }
-        .layout2{
-            background-color: rgb(255, 0, 98);
-            margin: 0 0 10px 10px;
-            padding: 2px;
-            box-shadow: 1px 1px 3px rgba(255, 0, 98, 0.486);
-            border-radius: 5px;
-        }
-        .layout3{
-            background-color: rgb(0, 195, 255);
-            margin: 0 10px 10px 0;
-            padding: 2px;
-            box-shadow: 1px 1px 3px rgba(0, 195, 255, 0.466);
-            border-radius: 5px;
-        }
-        .layout4{
-            background-color: rgb(0, 255, 76);
-            margin: 0 0 10px 10px;
-            padding: 2px;
-            box-shadow: 1px 1px 3px  rgba(0, 255, 76, 0.445);
-            border-radius: 5px;
-        }
-        section div img{
-            width: 100%;
-            height: 100%;
-            border-radius: 5px;
-        }
-        footer{
-            height: 100px;
-            background-color:rgb(34, 0, 0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        footer>p{
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="WhatsApp-Image-2024-06-22-at-11.29.41.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
-            <img src="WhatsApp-Image-2024-06-22-at-11.29.41.ico" alt="barber" id="logo">
+            <img src="WhatsApp-Image-2024-06-22-at-11.29.41.ico" alt="logo" id="logo">
             <div id="li">
                 <li>Delivery ✅</li>
                 <li><a href="https://wa.me/5511959707573?text=Ol%C3%A1%20tudo%20bem,%20clique%20no%20link%20e%20fa%C3%A7a%20seu%20pedido!" target="_blank">WhatsApp <img id="whats" src="whatsapp.png" alt="logoWhats"></a></li>
@@ -124,11 +19,18 @@
         </nav>
     </header>
     <main>
+        <div class="wrapper">
+            <svg>
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    Alguns de nossos Produtos:
+                </text>
+            </svg>
+        </div>
         <section>
-            <div class="layout1"><img src="imgLiv.jfif" alt="Product1"></div>
-            <div class="layout2"><img src="imgLiv.jfif" alt="Product2"></div>
-            <div class="layout3"><img src="imgLiv.jfif" alt="Product3"></div>
-            <div class="layout4"><img src="imgLiv.jfif" alt="Product4"></div>
+            <div class="layout1"><img src="WhatsApp Image 2024-06-24 at 13.30.40 (1).jpeg" alt="Product1"></div>
+            <div class="layout2"><img src="WhatsApp Image 2024-06-24 at 13.30.40.jpeg" alt="Product2"></div>
+            <div class="layout3"><img src="WhatsApp Image 2024-06-24 at 13.30.41 (1).jpeg" alt="Product3"></div>
+            <div class="layout4"><img src="WhatsApp Image 2024-06-24 at 13.30.41.jpeg" alt="Product4"></div>
         </section>
     </main>
     <footer>
